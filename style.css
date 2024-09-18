@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html, body {
     height: 100%;
     width: 100%;
 }
+
 #main {
-    /* background-color: #000; */
     position: relative;
     z-index: 10;
 }
+
 #page1 {
     min-height: 100vh;
     width: 100%;
@@ -21,9 +23,8 @@ html,body{
 }
 
 nav {
-    padding: 2vw 0vw;
+    padding: 2vw 0;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     position: relative;
@@ -80,8 +81,44 @@ nav {
 nav h3 {
     display: none;
 }
-#content{
+
+#content {
     height: 70vh;
     width: 100%;
-    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url("https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    text-align: center; /* Center text within content */
+}
+
+#content h1 {
+    margin-bottom: 10vh; /* Spacing for title */
+    font-size: 15vh;
+    color: white;
+}
+
+#content h2 {
+    margin-top: 10vh; /* Spacing for subheading */
+    color: white;
+    font-size: 5vh;
+}
+
+#content ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+    color: white;
+}
+
+#content li {
+    margin: 10px 0; /* Spacing for list items */
+    color: white;
+    font-size: 1.5vw;
+}
+p{
+    color: white;
+    font-size: 20px;
 }
