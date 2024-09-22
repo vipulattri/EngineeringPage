@@ -3,35 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Engineering</title>
+    <title>Engineering Page</title>
+    <link rel="stylesheet" href="engg.css">
 </head>
 <body>
-    <div id="main">
-        <div id="page1">
-            <nav>
-                <img src="c:\Codeledger\logokc.png" alt="">
-                <div id="nav-part2">
-                    <h4><a href="https://www.himtu.ac.in/">Home</a></h4>
-                    <h4><a href="#">About</a></h4>
-                    <h4><a href="#">Campus</a></h4>
-                    <h4><a href="#">Contact us</a></h4>
-                </div>
-                <h3>Menu</h3>
-            </nav>
-            <div id="content">
-                <h1>Engineering</h1>
-                <p>The KC Group of Institutions is dedicated to providing high-quality education in various engineering disciplines. Our programs are designed to equip students with both theoretical knowledge and practical skills, preparing them for a successful career in the engineering field.</p>
-                <h2>Programs Offered</h2>
-                <ul>
-                    <li><strong>B.Tech in Computer Science and Engineering</strong>: Focuses on software development, systems design, and innovative technology solutions.</li>
-                    <li><strong>B.Tech in Electrical Engineering</strong>: Covers the fundamentals of electrical systems, electronics, and power engineering.</li>
-                    <li><strong>B.Tech in Civil Engineering</strong>: Emphasizes construction, design, and management of infrastructure projects.</li>
-                    <li><strong>B.Tech in Mechanical Engineering</strong>: Involves the study of mechanics, thermodynamics, and materials science for engineering applications.</li>
-                </ul>
-                <p>Join us to explore the endless possibilities in the field of engineering and to be part of a vibrant learning community!</p>
+    <div id="loader">
+        <img src="logokc.png" alt="">
+     </div> 
+     <div id="fixed-image">
+ 
+    <!-- Header Section -->
+    <div id="page1">
+        <nav>
+            <img src="Mediamodifier-Design.svg" alt="">
+            <div id="nav-part2">
+                <h4><a href="https://vipulattri.github.io/Hackathon/">Home</a></h4>
+                <h4><a href="#">About</a></h4>
+                <h4><a href="#">Campus</a></h4>
+                <h4><a href="#">Contact us</a></h4>
+
             </div>
+      
+          
+        </nav>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="section">
+        <div class="container">
+            <h2>Welcome to KC Group of Research and Professional Institutes, Pandoga</h2>
+            <p>KC Group of Research and Professional Institutes was established under the ambit of K.C. Educational & Social Welfare Society, Pandoga Uparla, Tehsil & Distt. Una (Himachal Pradesh). It was established with a noble vision of imparting quality technical education to the remote and backward regions of Himachal Pradesh particularly in Distt. Una. This Institute is established in semi-hilly area having lush green tranquil campus which offers a congenial atmosphere to the students for their overall development. Its location provides added advantage to students as it is situated on Una- Hoshiarpur highway and about 11 Kms far away from District Una. The Institute is approved by AICTE, New Delhi, Govt. Of Himachal Pradesh and is affiliated to Himachal Pradesh Technical University, Hamirpur</p>
         </div>
-    </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <section id="courses" class="section">
+                <div class="container">
+                    <h2>Courses</h2>
+                    <div class="courses-grid">
+                        <div class="course">
+                            <h3>B.Tech in Computer Science Engineering</h3>
+                            <p>Focusing on software development, AI, and cybersecurity to prepare students for the tech-driven world.</p>
+                        </div>
+                        <div class="course">
+                            <h3>B.Tech in Mechanical Engineering</h3>
+                            <p>Exploring mechanical systems, materials science, and thermodynamics to engineer innovative solutions.</p>
+                        </div>
+                        <div class="course">
+                            <h3>B.Tech in Electrical Engineering</h3>
+                            <p>Equipping students with knowledge of electrical circuits, control systems, and power electronics.</p>
+                        </div>
+                        <div class="course">
+                            <h3>B.Tech in Civil Engineering</h3>
+                            <p>Building expertise in construction, infrastructure development, and sustainable urban planning.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+    <!-- Research Section -->
+    <section id="courses" class="section">
+        <div class="container">
+            <h2>Courses Offered</h2>
+            <p>We offer a variety of undergraduate engineering programs designed to prepare students for the future of technology and innovation.</p>
+            <ul>
+                <li>B.Tech in Computer Science and Engineering (CSE)</li>
+                <li>B.Tech in Mechanical Engineering</li>
+                <li>B.Tech in Electrical Engineering</li>
+                <li>B.Tech in Civil Engineering</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 KC group of institutions. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="engg.js"></script>
 </body>
 </html>
